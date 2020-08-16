@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css\style.css">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<style>
+
+     /* CSS RESET */
+
+     body{
+         color: white;
+         font-family: 'Baloo Bhaina 2', cursive;
+         margin: 0px;
+         padding: 0px;
+         background-image: url('img/amin-hasani-5yCiIj1fxmc-unsplash.jpg '); 
+         background-repeat: no-repeat;
+         background-size: 1580px 1000px ;
+    }
+    .left{
+        /* border: 2px solid red; */
+        display: inline-block;
+
+        
+    }
+    .mid{
+         
+        display: inline-block;
+    width: 800px;
+    /* border: 2px solid blue; */
+    margin: 12px auto;
+    position: fixed;
+    top: 10px;
+    padding-left: 150px;
+    margin-left: 100px;
+    font-size: larger;
+ }
+
+ .right{
+
+     position: absolute;
+     right: 34px;
+     top: 20px;
+    display: inline-block;
+    /* border: 2px solid green; */
+
+ }
+.navbar{
+        display: inline-block;
+
+
+
+
+}
+
+.navbar li{
+            display: inline-block ;
+
+}
+.navbar li a{
+    color: #000000;
+    text-decoration: none;
+    padding: 54px 25px;
+    font-size: 25px;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: #860101;
+     
+}
+
+.left img{
+
+    width: 150px;
+    filter: invert(200%);
+    
+}
+
+.btn{
+    margin: 12px 10px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    background-color: #000000;
+    color: aliceblue;
+    padding: 8px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: grey;
+    
+}
+
+
+.container{
+    border: 2px solid black;
+    margin: 10px 200px;
+    padding: 100px 50px;
+    display: inline-block;
+    width: 40%;
+    border-radius: 30px;
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    border: 2px solid black;
+    margin: 3px auto;
+    padding: 10px 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color: rgb(255 255 255);
+}
+.container h1{
+    text-align: center;
+    color:rgb(0,0,10);
+    font-family: 'Abril Fatface', cursive;
+} 
+
+.container button{
+    font-family: 'Abril Fatface', cursive;
+    display: block;
+    width:75%;
+    text-align: center;
+    margin: auto;
+    background-color: beige;
+    color: #000000;
+    height: 70px;
+
+}
+
+</style>
+<body>
+            <header class="header"><!-- left box for logo -->
+
+                    <div class="left">
+                            <img src="img/fitness-logo-template-with-an-abstract-energetic-human-illustration-2457a-1024x1024.png" alt="">
+                    </div>
+                      <!-- mid box for navigatgion -->
+                    <div class="mid">
+                        <ul class="navbar">
+                            <li><a href="" class="active"> <strong>Home</strong> </a> </li>
+                               <li><a href=""><strong>Fitness calculator</strong>   </a>  </li>
+                               <li><a href=""><strong>About Us</strong>   </a>  </li>
+                             <li><a href=""><strong> Contact Us</strong></a> </li>
+                            
+
+                        </ul>
+
+
+
+                    </div>
+
+                    <!-- right for contact and enquiry -->
+                    <div class="right">
+                        <button class="btn">Call us</button>
+                        <button class="btn">Email</button>
+
+                    </div>
+
+
+
+
+
+
+
+            </header>  
+                <div class="container">
+                    <h1>
+                        join the best Gym of Bengaluru now
+                    </h1>
+                    <form action="noaction.php">
+
+                        <div class="form-group">
+                            <input type="text" name=""  placeholder="Enter your name">
+                             
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" name=""  placeholder="Enter your Age">
+                             
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name=""  placeholder="Enter your Gender">
+                             
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name=""  placeholder="Enter your Location">
+                             
+                         
+                        <button 
+                        class="btn">submit</button>
+                        
+
+
+
+
+
+                    </form>
+                </div>
+
+
+
+
+
+
+
+</body>
+</html>
